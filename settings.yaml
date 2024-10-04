@@ -1,0 +1,12 @@
+default:
+  DATABASE_URL: 'sqlite:///data.db'
+  BATCH_SIZE: 1000
+  LOG_LEVEL: 'INFO'
+
+development:
+  DATABASE_URL: 'sqlite:///dev_data.db'
+  LOG_LEVEL: 'DEBUG'
+
+production:
+  DATABASE_URL: 'postgresql://user:password@localhost/prod_db'
+  LOG_LEVEL: 'WARNING'

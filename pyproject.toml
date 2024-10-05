@@ -26,4 +26,4 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-data-pipeline = "data_pipeline.cli:main"
+app = "ai_explorer.app:main"

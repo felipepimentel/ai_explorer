@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "data-pipeline"
+name = "ai-explorer"
 version = "0.1.0"
 description = "Uma esteira de dados moderna com diversas funcionalidades de processamento"
 authors = ["Seu Nome <seu.email@exemplo.com>"]
